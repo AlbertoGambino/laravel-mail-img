@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+    color: gold;
+    text-align: center;
+    .inputs{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+        .flex-input{
+
+            width: 400px;
+            margin: 20px 0;
+            .border-input{
+
+                border: 2px solid gold;
+            }
+
+        }
+        .save-button{
+
+                background-color: gold;
+                border-radius: 5px;
+                padding: 5px 10px;
+                border: none;
+                margin-bottom: 20px;
+            }
+    }
+}
